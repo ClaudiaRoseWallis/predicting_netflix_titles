@@ -15,4 +15,4 @@ This repo contains code to predict which Netflix titles a user may want to watch
 2. Mum's Netflix History: downloaded from Netflix
 
 ## Outcome 
-A XGBoost Model was built after comparing multiple algorithms and tuning parameters. Unfortunately it overfitted and so its performance on the test set is not as strong as that on the train & validation. However it is better than random and the feature importance makes sense given my understanding of what Mum likes to watch.
+A XGBoost Model was built after comparing multiple algorithms and tuning parameters. Unfortunately it overfitted and so its performance on the test set is not as strong as that on the train & validation. However it is better than random and the feature importance makes sense given my understanding of what Mum likes to watch. Unfortunately the dataset was extremely unbalanced and so we had to oversample using SMOTE. More Netflix preference data and exploration of other upsampling methods could see improved results.
